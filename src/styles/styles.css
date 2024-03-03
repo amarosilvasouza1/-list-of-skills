@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(235, 235, 235);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -41px;
+    margin-top: 20px;
+}
+
+button {
+    border: none;
+    border-radius: 3px;
+
+    font-size: 17px;
+    font-weight: 800;
+
+    color: white;
+    background-color: rgb(128, 36, 36);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100vh;
+
+ 
+}
+
+.conteiner_skils-box {
+    display: flex;
+    gap: 7rem;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    font-weight: 900;
+
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+
+.conteiner_skils-box div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    min-width: 25rem;
+    min-height: 32rem;
+    border-radius: 7px;
+
+    background-color: black;
+    color: white;
+}
+
+.conteiner_box-1, .conteiner_box-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+
+    margin-bottom: 3rem;
+    width: 50%;
+}
+
+.card_skil {
+    background-color: rgb(100, 98, 98);
+    border-radius: 3px;
+    height: 20px;
+}
+
+.card_skil_new-box {
+    background-color: green;
+    border-radius: 3px;
+    height: 20px;
+}
+
+.card_skil:hover {
+    background-color: green;
+}
+
+.off {
+    display: none;
+}
